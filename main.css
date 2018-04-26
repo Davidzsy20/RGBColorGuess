@@ -1,0 +1,19 @@
+body{
+    background-color: #232323;
+}
+h1{
+    color: whitesmoke;
+}
+.squares{
+    width: 32%;
+    background-color: purple;
+    display: inline-block;
+    padding-bottom: 30%;
+    margin: 0.4%
+    
+
+}
+#container{
+    margin: 0 auto;
+    max-width: 600px
+}
