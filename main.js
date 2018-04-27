@@ -38,7 +38,7 @@ hardBtn.addEventListener('click', function() {
             squares[i].style.display = 'inline-block'
     }
     
-})
+}) 
 resetButton.addEventListener("click", function() {
    colors = generateRandomColors(numSquares)
 
@@ -47,7 +47,7 @@ resetButton.addEventListener("click", function() {
    messageDisplay.textContent = "";
    refresh()
    h1.style.backgroundColor = '#232323'
-   this.textContent = 'New Colors'
+   this.textContent = 'New Colors';
 })
 
 
