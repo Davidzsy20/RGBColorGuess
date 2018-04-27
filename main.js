@@ -38,7 +38,7 @@ hardBtn.addEventListener('click', function() {
             squares[i].style.display = 'inline-block'
     }
     
-}) 
+})
 resetButton.addEventListener("click", function() {
    colors = generateRandomColors(numSquares)
 
